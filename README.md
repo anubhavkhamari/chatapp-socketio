@@ -6,7 +6,7 @@
   A real-time chat application built with <strong>React.js</strong>, <strong>Node.js</strong>, <strong>Socket.IO</strong>, and <strong>@mui/material</strong>, providing a sleek, colorful, and responsive user interface. The app supports multiple chat rooms, real-time messaging, automatic scrolling, and mobile responsiveness using <strong>Tailwind CSS</strong>.
 </blockquote>
 
-<img src="./preview.png" alt="Socket.IO Chat Preview" />
+<img src="https://socket.io/images/logo-dark.svg" alt="Socket.IO Chat Preview" />
 
 <h2>✨ Features</h2>
 
@@ -51,16 +51,16 @@ cd chatapp-socketio</code>
   </li>
   <li><strong>Start the backend server:</strong>
     <pre>
-<code>cd server
+<code>cd backend
 node server.js</code>
     </pre>
   </li>
   <li><strong>Start the frontend development server:</strong>
     <pre>
-<code>cd client
+<code>cd frontend
 npm start</code>
     </pre>
-    The app will now be available at <a href="http://localhost:3000" target="_blank">http://localhost:3000</a>.
+    The app will now be available at <a href="http://localhost:3002" target="_blank">http://localhost:3002</a>.
   </li>
 </ol>
 
@@ -94,47 +94,18 @@ npm start</code>
 
 <hr />
 
-<h2>📸 Screenshots</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>Feature</th>
-      <th>Screenshot</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Join/Create Room</td>
-      <td><img src="./screenshots/join-room.png" alt="Join Room Screenshot" /></td>
-    </tr>
-    <tr>
-      <td>Chat Interface</td>
-      <td><img src="./screenshots/chat-interface.png" alt="Chat Interface Screenshot" /></td>
-    </tr>
-    <tr>
-      <td>Mobile View</td>
-      <td><img src="./screenshots/mobile-view.png" alt="Mobile View Screenshot" /></td>
-    </tr>
-  </tbody>
-</table>
-
-<hr />
-
 <h2>📂 Project Structure</h2>
 
 <pre>
 <code>.
-├── client                   # React Frontend
+├── frontend                   # React Frontend
 │   ├── src
-│   │   ├── components       # Reusable React Components
-│   │   ├── App.js           # Main React Component
+│   │   ├── App.js           # Main React Component - includes everything (components and screens can be separated while adding features)
 │   │   ├── index.js         # Entry point for React
 │   └── public
-├── server                   # Node.js Backend
+├── backend                   # Node.js Backend
 │   ├── server.js            # Main backend file (Socket.IO setup)
 ├── README.md                # Project documentation
-└── package.json             # Project dependencies and scripts
 </code>
 </pre>
 
@@ -145,6 +116,7 @@ npm start</code>
 <ul>
   <li><strong>React.js</strong> – Frontend UI library for building user interfaces.</li>
   <li><strong>Node.js</strong> – JavaScript runtime environment for the backend.</li>
+  <li><strong>Express.js</strong> – A minimal and flexible Node.js web application framework for handling HTTP requests and managing routes.</li>
   <li><strong>Socket.IO</strong> – Real-time bidirectional event-based communication.</li>
   <li><strong>@mui/material</strong> – Material-UI for styling the components.</li>
   <li><strong>Tailwind CSS</strong> – Utility-first CSS framework for responsive design.</li>
@@ -178,7 +150,7 @@ node server.js</code>
 <h2>🐛 Troubleshooting</h2>
 
 <ul>
-  <li><strong>Frontend not starting</strong>: Make sure the backend is running on <code>localhost:5000</code>, and the frontend is on <code>localhost:3000</code>.</li>
+  <li><strong>Frontend not starting</strong>: Make sure the backend is running on <code>localhost:3000</code>, and the frontend is on <code>localhost:3002</code>. Otherwise change in url in code accordingly.</li>
   <li><strong>Socket connection issues</strong>: Check the <code>socket.io</code> version compatibility between the client and server.</li>
 </ul>
 
@@ -190,11 +162,6 @@ node server.js</code>
 
 <hr />
 
-<h2>📄 License</h2>
-
-<p>This project is licensed under the MIT License. See the <a href="./LICENSE">LICENSE</a> file for details.</p>
-
-<hr />
 
 <h2>📞 Contact</h2>
 
