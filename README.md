@@ -6,7 +6,7 @@
   A real-time chat application built with <strong>React.js</strong>, <strong>Node.js</strong>, <strong>Socket.IO</strong>, and <strong>@mui/material</strong>, providing a sleek, colorful, and responsive user interface. The app supports multiple chat rooms, real-time messaging, automatic scrolling, and mobile responsiveness using <strong>Tailwind CSS</strong>.
 </blockquote>
 
-<img src="https://socket.io/images/logo-dark.svg" alt="Socket.IO Chat Preview" />
+<img src="https://socket.io/images/logo-dark.svg" alt="Socket.IO Chat Preview" style='size : 25px'/>
 
 <h2>✨ Features</h2>
 
