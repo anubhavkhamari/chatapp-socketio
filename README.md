@@ -169,7 +169,7 @@ node server.js</code>
 
 <ul>
   <li><strong>Email</strong>: <a href="mailto:anubhavkhamari002@gmail.com">anubhavkhamari002@gmail.com</a></li>
-  <li><strong>LinkedIn</strong>: <a href="https://www.linkedin.com/in/anubhavkhamari">Anubhav Khamari</a></li>
+  <li><strong>LinkedIn</strong>: <a href="https://www.linkedin.com/in/anubhav-khamari">Anubhav Khamari</a></li>
 </ul>
 
 <hr />
